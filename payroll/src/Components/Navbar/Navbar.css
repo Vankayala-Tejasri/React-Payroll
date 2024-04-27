@@ -1,0 +1,79 @@
+/* Navbar.css */
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(251, 61, 61, 0.947);
+  /* margin: 20px; */
+  height: 70px;
+  /* width: 100%; */
+}
+
+.navbar nav p {
+  font-size: 22px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  word-spacing:0.2ch;
+  letter-spacing: 0.05ch;
+}
+
+.navbar nav ul {
+  display: flex;
+  padding: 10px;
+}
+
+.navbar nav ul li {
+  list-style-type: none;
+  display: flex;
+  font-size: 20px;
+  position: relative;
+}
+.navbar nav ul li a:hover {
+  color: black;
+}
+
+.navbar nav ul .name {
+  text-decoration: none;
+  font-size: 19px;
+  font-style: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  color: white;
+}
+
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(251, 61, 61, 0.947);
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 13px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown {
+  margin-top: 16px;
+  
+}

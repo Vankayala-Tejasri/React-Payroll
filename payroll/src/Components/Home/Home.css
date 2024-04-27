@@ -1,0 +1,80 @@
+.container{
+    /* border: 1px solid black; */
+    /* width: fit-content; */
+    margin-left: 100px;
+    margin-right: 150px;
+
+    
+}
+.container .sal {
+    border: 1px solid black;
+}
+.container .sal .tables{
+    width:550px;
+    border: 1px solid black;
+    align-items: center;
+    margin-left: 250px;
+    height:220px;
+    padding: 15px;
+    padding-left: 80px;
+    /* padding-right:20px; */
+    font-size: 16px;
+}
+.container .sal .tables caption{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 5ch;
+}
+#tragss{
+    width:50%;
+    padding: 10px 20px;
+    border:none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    outline:none;
+    
+}
+.divinp{
+    margin-left: 360px;
+    
+}
+.container .sal .tabs{
+    display:flex;
+    margin-left: -400px;
+    width:-300px;
+}
+.container .sal .tabs .tab1{
+    border:none;
+    margin-left: 460px;
+    height: 300px;
+    width:400px;
+    padding:20px;
+    
+
+
+}
+.container .sal .tabs .tab1 caption{
+    font-size: 25px;
+    margin-left: 10px;
+
+}
+.container .sal .tabs .tab2{
+    border:none;
+    margin-left: 100px;
+    height: 400px;
+    width:400px;
+    padding:20px;
+    text-align: justify;
+    
+
+
+}
+.container .sal .tabs .tab2 caption{
+    font-size: 25px;
+    margin-left: 80px;
+    text-align: justify;
+
+}
+#but{
+    margin-left: 450px;
+}

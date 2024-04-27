@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+.navbaring nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(251, 61, 61, 0.947);
+    /* margin: 20px; */
+    height: 70px;
+    /* width: 100%; */
+  }
+  
+  .navbaring nav p {
+    font-size: 22px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing:0.2ch;
+    letter-spacing: 0.05ch;
+  }
+  
+  .navbaring nav ul {
+    display: flex;
+    padding: 10px;
+  }
+  
+  .navbaring nav ul li {
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    position: relative;
+  }
+  .navbaring nav ul li a:hover {
+    color: black;
+  }
+  
+  .navbaring nav ul .nav-link {
+    text-decoration: none;
+    font-size: 19px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Dropdown styles */
+  
